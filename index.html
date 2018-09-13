@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cool</title>
+        <script src="scripts/canvas.js" ></script>
+        <link rel="stylesheet" href="/styles/main.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts/main.js"></script>
+    </head>
+    <body onload="init()">
+        <div id="underlay" style="display: block">
+        <div class="parrallax"> </div>
+        <h1 class="default">It really does.</h1>
+        <h2>Welcome to the world's worst paint program</h2>
+        <hr />
+        <br />
+    </div>
+        <div id="overlay" style="display: none;">
+        <canvas style="border: 1px solid black; display: block; margin-left: auto; margin-right: auto;" height="500" width="1000" id="game">Apparently, your browser doesn't support JS canvases, which is necessary for this to work, JS canvases have exisated since Chrome 4, it's currently 68, so please, update your browser.</canvas>
+        <br />
+    </div>
+    <div class="center">
+   <input class="center rkmd-btn ripple-effect" type="button" value="Swap" onclick="swap()" />
+</div>
+    </body>
+</html>
